@@ -23,7 +23,7 @@ export const fetchData = () => async dispatch => {
   try {
     let data = await require("../datas/movies.json");
 
-    dispatch(getData(data));
+    dispatch(getData(data));©
   } catch (error) {
     console.error(error);
   }
